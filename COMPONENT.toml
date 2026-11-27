@@ -1,0 +1,5 @@
+[component]
+name = "SigmaOS-jupyter"
+version = "0.1.0"
+category = "notebooks"
+description = "Jupyter kernel and session management for SigmaOS"

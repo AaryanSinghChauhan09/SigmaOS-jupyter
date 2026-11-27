@@ -1,0 +1,21 @@
+[package]
+name = "sigmaos_jupyter"
+version = "0.1.0"
+edition = "2021"
+license = "GPL-3.0-or-later"
+description = "Jupyter kernel and session management for SigmaOS"
+
+[[bin]]
+name = "sigmaos-jupyter"
+path = "src/main.rs"
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies]
+thiserror = "1"
+serde = { version = "1", features = ["derive"] }
+log = "0.4"
+clap = { version = "4", features = ["derive"] }
+
+[dev-dependencies]
